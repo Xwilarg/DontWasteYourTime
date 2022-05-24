@@ -3248,7 +3248,7 @@
                                     "choices": 2,
                                     "__collapseCase0": false,
                                     "value0": 0,
-                                    "__collapseCase1": false,
+                                    "__collapseCase1": true,
                                     "value1": 1,
                                     "__collapseCase2": false,
                                     "value2": 3,
@@ -3289,7 +3289,8 @@
                                                 "text": [
                                                     "I don't... have\nthe force to fight\nanymore..."
                                                 ],
-                                                "avatarId": ""
+                                                "avatarId": "",
+                                                "__collapse": true
                                             },
                                             "id": "ac150d34-3533-4a17-a766-25032287eded"
                                         },
@@ -3348,22 +3349,103 @@
                                 "id": "78c1fa22-5b82-4056-acb5-5443c4a89b38"
                             },
                             {
-                                "command": "EVENT_MENU",
+                                "command": "EVENT_SWITCH",
                                 "args": {
-                                    "variable": "L0",
-                                    "items": 2,
-                                    "option1": "Retry boss",
-                                    "option2": "Back to title",
-                                    "option3": "",
-                                    "option4": "",
-                                    "option5": "",
-                                    "option6": "",
-                                    "option7": "",
-                                    "option8": "",
-                                    "cancelOnB": false,
-                                    "layout": "dialogue"
+                                    "variable": "5",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 0,
+                                    "__collapseCase1": false,
+                                    "value1": 1,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false,
+                                    "__disableElse": true
                                 },
-                                "id": "b30ccd2a-b35e-4cca-9771-185570fe1d70"
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "Retry boss",
+                                                "option2": "Back to title",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "dialogue"
+                                            },
+                                            "id": "b30ccd2a-b35e-4cca-9771-185570fe1d70"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "Rééssayer le boss",
+                                                "option2": "Retourner au menu",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "dialogue"
+                                            },
+                                            "id": "979bec4f-99cf-4cfc-91db-bc3a1b223653"
+                                        }
+                                    ],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "b10c2a1b-e492-4bba-8c2f-4a4a8fd9dc0f"
                             },
                             {
                                 "command": "EVENT_SWITCH",
@@ -18006,7 +18088,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1875,
-        "worldScrollY": 290,
+        "worldScrollY": 170,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
