@@ -12829,7 +12829,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh a key!"
+                                                "There is a label\non the key:\n\"Support key\""
                                             ],
                                             "avatarId": ""
                                         },
@@ -12839,8 +12839,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Wait that's the\nkey of my master\nhouse...",
-                                                "What is it doing\nhere?"
+                                                "Oh it's just a\nkeystone"
                                             ],
                                             "avatarId": ""
                                         },
@@ -12852,7 +12851,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh une clé!"
+                                                "Il y a une\nétiquette sur la\nclé:",
+                                                "\"Clé de  soutiens\""
                                             ],
                                             "avatarId": ""
                                         },
@@ -12862,8 +12862,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Attends, c'est la\nclé de la tour de\nmon maître...",
-                                                "Qu'est ce qu'elle\nfait ici?"
+                                                "Oh, c'est juste\nune clé de voute"
                                             ],
                                             "avatarId": ""
                                         },
@@ -13423,11 +13422,22 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Lots of books\nof no particular\ninterest"
+                                                "There is a small\npaper in one of\nthe books:"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "2c202712-fd2d-4303-b33d-aefd422cd8b2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"Don't open the\nbooks, they are\nonly here for",
+                                                "decoration!\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9babd141-4668-4963-9b5a-ff0898425acb"
                                     }
                                 ],
                                 "true1": [
@@ -13435,11 +13445,31 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Plein de livres\nsans attrait aucun"
+                                                "Il y a une note\ndans un des\nlivres:"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "3c00f0c1-026a-40cd-b395-49b656114454"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"N'ouvrez pas les\nlivres, ils sont\nseulement ici"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "530cea07-8936-449b-b8fc-955b3db15b54"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "pour décorer!\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a8962904-a49e-48fc-b209-bbaf5f0900e4"
                                     }
                                 ],
                                 "true2": [],
@@ -13517,11 +13547,21 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Books books books\nand lot of books"
+                                                "There is a small\npaper in one of\nthe books:"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "900741a9-587d-4bc1-8648-857149ea7f5d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"Passcode:\n171E\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "64fa65d7-c45e-4d07-b837-c54ca50b1881"
                                     }
                                 ],
                                 "true1": [
@@ -13529,11 +13569,21 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Des livres, des\nlivres et encore\ndes livres"
+                                                "Il y a une note\ndans un des\nlivres:"
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "59106e52-9f22-40f2-9cc0-a8820ee01f55"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"Mot de passe:\n171E\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6835e424-69b1-4554-9ab4-169eabe948ae"
                                     }
                                 ],
                                 "true2": [],
@@ -20314,9 +20364,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 952,
-        "worldScrollY": 38,
-        "zoom": 110.65014989674091,
+        "worldScrollX": 3660,
+        "worldScrollY": 1888,
+        "zoom": 310.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
