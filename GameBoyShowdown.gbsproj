@@ -25217,7 +25217,7 @@
             "name": "Default BG 1",
             "colors": [
                 "D8F8F8",
-                "609098",
+                "6090B0",
                 "2828B8",
                 "301860"
             ],
@@ -25233,10 +25233,10 @@
             "id": "default-bg-2",
             "name": "Default BG 2",
             "colors": [
-                "E0F8A0",
-                "78C838",
-                "488818",
-                "081800"
+                "D8F8F8",
+                "6090B0",
+                "2828B8",
+                "301860"
             ],
             "defaultName": "Default BG 2",
             "defaultColors": [
@@ -25267,10 +25267,10 @@
             "id": "default-bg-4",
             "name": "Default BG 4",
             "colors": [
-                "B8D0D0",
-                "D880D8",
-                "8000A0",
-                "380000"
+                "B8F8A8",
+                "60E058",
+                "387030",
+                "002008"
             ],
             "defaultName": "Default BG 4",
             "defaultColors": [
@@ -25301,10 +25301,10 @@
             "id": "default-bg-6",
             "name": "Default BG 6",
             "colors": [
-                "F8D8B0",
-                "78C078",
-                "688840",
-                "583820"
+                "F8D0D0",
+                "C87070",
+                "783838",
+                "600810"
             ],
             "defaultName": "Default BG 6",
             "defaultColors": [
@@ -25885,8 +25885,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1171,
-        "worldScrollY": 100,
+        "worldScrollX": 1870,
+        "worldScrollY": 140,
         "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
