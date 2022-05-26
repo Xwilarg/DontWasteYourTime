@@ -418,7 +418,7 @@
                                                             "type": "property",
                                                             "value": "player:xpos"
                                                         },
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "9808e254-1b6c-4562-af85-c9f5bccfa739"
                                                 },
@@ -429,7 +429,7 @@
                                                         "operator": ">=",
                                                         "comparator": 9,
                                                         "__collapseElse": true,
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -560,7 +560,7 @@
                                                                     "actorId": "player",
                                                                     "x": {
                                                                         "type": "number",
-                                                                        "value": 8
+                                                                        "value": 7
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
@@ -568,7 +568,7 @@
                                                                     },
                                                                     "moveType": "vertical",
                                                                     "useCollisions": false,
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "6171697e-afc0-4596-971a-44f3b3460244"
                                                             },
@@ -835,7 +835,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
-                                "x": 3,
+                                "x": 2,
                                 "y": 12,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -1371,9 +1371,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "60472734-93b9-4b93-bd1c-3348520475dc",
-                                "x": 9,
-                                "y": 15,
+                                "sceneId": "1846c53a-5af1-4848-8c4e-3cdbda911733",
+                                "x": 2,
+                                "y": 12,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -11396,9 +11396,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
-                                "x": 3,
-                                "y": 13,
+                                "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
+                                "x": 13,
+                                "y": 12,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -20307,8 +20307,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1742,
-        "worldScrollY": 171,
+        "worldScrollX": 1712,
+        "worldScrollY": 363,
         "zoom": 160.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
