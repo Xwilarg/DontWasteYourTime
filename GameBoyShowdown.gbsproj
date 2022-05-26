@@ -19739,7 +19739,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "hourglass_projectile.png",
-            "checksum": "11b99b158c0efa98a336624d97cb3dc65a2373a0",
+            "checksum": "af37b0ee534f7f185912e55d9d4d1d1859a62ed7",
             "width": 32,
             "height": 16,
             "states": [
@@ -19882,13 +19882,13 @@
                     ]
                 }
             ],
-            "numTiles": 3,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
-            "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsX": 2,
+            "boundsY": 2,
+            "boundsWidth": 12,
+            "boundsHeight": 12,
             "animSpeed": 15
         },
         {
@@ -20977,9 +20977,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2473,
-        "worldScrollY": 362,
-        "zoom": 210.6501498967409,
+        "worldScrollX": 10914,
+        "worldScrollY": 1606,
+        "zoom": 560.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
