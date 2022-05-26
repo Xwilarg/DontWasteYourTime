@@ -1885,8 +1885,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "c1335428-c5d6-48ca-89fa-e5916d99bc8b",
-            "x": 2006.5061566799432,
-            "y": 311.5696014287393,
+            "x": 1872.052500621212,
+            "y": 312.19207205864103,
             "actors": [
                 {
                     "name": "Boss",
@@ -10339,8 +10339,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "60472734-93b9-4b93-bd1c-3348520475dc",
-            "x": 1803.5090167423723,
-            "y": 314.71873406347476,
+            "x": 1684.6171264311793,
+            "y": 315.34120469337626,
             "actors": [],
             "triggers": [],
             "script": [
@@ -11027,8 +11027,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "f4a6184f-ed69-4a28-9dcb-bc360c1febc8",
-            "x": 2290.85190249046,
-            "y": 319.7089891105383,
+            "x": 2071.119770135218,
+            "y": 314.1067534414243,
             "actors": [],
             "triggers": [],
             "script": [
@@ -11426,8 +11426,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "1d78d204-f847-4b70-ad85-978c396132d1",
-            "x": 1831.5014240312375,
-            "y": 673.353896441818,
+            "x": 1857.0227198572004,
+            "y": 568.7788306183604,
             "actors": [],
             "triggers": [
                 {
@@ -20977,9 +20977,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 10914,
-        "worldScrollY": 1606,
-        "zoom": 560.6501498967409,
+        "worldScrollX": 2215,
+        "worldScrollY": 563,
+        "zoom": 160.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
