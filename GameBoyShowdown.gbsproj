@@ -11397,8 +11397,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
-                                "x": 4,
-                                "y": 14,
+                                "x": 3,
+                                "y": 13,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -11412,7 +11412,8 @@
                 {
                     "command": "EVENT_SET_TRUE",
                     "args": {
-                        "variable": "9"
+                        "variable": "9",
+                        "__comment": true
                     },
                     "id": "76fce439-30a3-40be-945b-86479d493a04"
                 },
@@ -12689,7 +12690,7 @@
                             "command": "EVENT_SET_TRUE",
                             "args": {
                                 "variable": "9",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "a4706b8b-2805-47a2-96dc-5711746e795c"
                         },
@@ -15969,7 +15970,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Handle Time Travel",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -15992,7 +15993,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16034,12 +16035,12 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "16aacbba-cad7-4716-99b3-d193460234c5",
+                                                "sceneId": "1846c53a-5af1-4848-8c4e-3cdbda911733",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
                                                 "fadeSpeed": 3,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "c5f8608b-bb05-4e4a-a67f-9745082b54bb"
                                         }
@@ -16468,9 +16469,9 @@
                             "args": {
                                 "variable": "5",
                                 "choices": 2,
-                                "__collapseCase0": true,
+                                "__collapseCase0": false,
                                 "value0": 0,
-                                "__collapseCase1": true,
+                                "__collapseCase1": false,
                                 "value1": 1,
                                 "__collapseCase2": false,
                                 "value2": 3,
@@ -16502,7 +16503,7 @@
                                 "value15": 16,
                                 "__collapseElse": false,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true0": [
@@ -16566,7 +16567,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Handle Time Travel",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -16589,7 +16590,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16631,12 +16632,12 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "16aacbba-cad7-4716-99b3-d193460234c5",
+                                                "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
                                                 "fadeSpeed": 3,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "717e04b8-52e9-45cd-82a0-d70a1a9abdda"
                                         }
@@ -18826,187 +18827,6 @@
             "animSpeed": 15
         },
         {
-            "id": "862a577c-abc0-4fd3-b961-838c60b6b248",
-            "name": "bridge",
-            "numFrames": 3.0625,
-            "type": "animated",
-            "filename": "bridge.png",
-            "checksum": "d6f43f7a11a4752c3b994835bdb47b803ce65db4",
-            "width": 49,
-            "height": 16,
-            "states": [
-                {
-                    "id": "f2e4e05e-ddba-4ba8-868b-a7e06a85f6e6",
-                    "name": "",
-                    "animationType": "multi",
-                    "flipLeft": true,
-                    "animations": [
-                        {
-                            "id": "43044ee3-58d9-4926-a5fd-ba3cf2f40077",
-                            "frames": [
-                                {
-                                    "id": "89631b02-6263-457f-885b-fa248a00a677",
-                                    "tiles": [
-                                        {
-                                            "id": "b516fc3a-f8e9-4d66-9be6-a38e30872791",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 32,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "4e6f6ca9-d6cc-42ac-9c2c-ff5e03957b3e",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 40,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "168efa2e-552d-43a5-8f6a-c53b631cb1e7",
-                            "frames": [
-                                {
-                                    "id": "6f012129-d4f2-4191-895d-1edef3f6478c",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "cae88e74-8edd-46c8-b7a7-977fc4a41b79",
-                            "frames": [
-                                {
-                                    "id": "18fa0ee5-3408-4e01-9058-0ee0f1f49593",
-                                    "tiles": [
-                                        {
-                                            "id": "5b7efa72-bfdf-4c75-adc1-6ca6a7b0c197",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 16,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "095a56de-61dc-4f1a-ac1e-e7d2118b7776",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 24,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "170b494e-93e7-4a2e-b8f1-f53ae96b7f92",
-                            "frames": [
-                                {
-                                    "id": "7c9bd06e-cd8f-48ea-b269-53a925828248",
-                                    "tiles": [
-                                        {
-                                            "id": "fce13eed-b83d-4613-be0f-f02bf1424a62",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "034cb8b2-1013-4d78-a810-70b3b42b2ff4",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "f74bced2-4ae4-4fe8-8faa-e12de651513f",
-                            "frames": [
-                                {
-                                    "id": "99d7a986-464d-4311-87d8-cd4cfb4b80cd",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "672ebd0a-8794-4202-98b3-654a3f716694",
-                            "frames": [
-                                {
-                                    "id": "3833b59e-4f31-42e3-9bdd-e198de2fe9f4",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "1c4c5aa2-4ba8-4cb7-b5da-e9ab6632445d",
-                            "frames": [
-                                {
-                                    "id": "701bcfb1-822c-40ef-b47e-3a58e503e3b5",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "91e8e057-c60f-4cef-80ff-4408de4e2913",
-                            "frames": [
-                                {
-                                    "id": "02b5a83d-198c-49a1-be31-cc8fd56f09f5",
-                                    "tiles": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "numTiles": 6,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
-            "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
-            "animSpeed": 15
-        },
-        {
             "id": "30a091fb-2514-4e76-9509-78ddb9cf7c64",
             "name": "cursor",
             "numFrames": 2,
@@ -20487,9 +20307,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2936.83203125,
-        "worldScrollY": 596.7359619140625,
-        "zoom": 220.31251525878906,
+        "worldScrollX": 1742,
+        "worldScrollY": 171,
+        "zoom": 160.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -20517,9 +20337,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            281,
-            156,
-            268
+            378,
+            209,
+            360
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
