@@ -10371,7 +10371,7 @@
                                 "args": {
                                     "variable": "3",
                                     "operator": "<=",
-                                    "comparator": 8,
+                                    "comparator": 10,
                                     "__collapseElse": false
                                 },
                                 "children": {
@@ -10394,7 +10394,7 @@
                                             "args": {
                                                 "variable": "3",
                                                 "operator": "<=",
-                                                "comparator": 10,
+                                                "comparator": 12,
                                                 "__collapseElse": false
                                             },
                                             "children": {
@@ -10417,7 +10417,7 @@
                                                         "args": {
                                                             "variable": "3",
                                                             "operator": "<=",
-                                                            "comparator": 15,
+                                                            "comparator": 16,
                                                             "__collapseElse": false
                                                         },
                                                         "children": {
@@ -10440,7 +10440,7 @@
                                                                     "args": {
                                                                         "variable": "3",
                                                                         "operator": "<=",
-                                                                        "comparator": 18,
+                                                                        "comparator": 22,
                                                                         "__collapseElse": false
                                                                     },
                                                                     "children": {
@@ -28774,8 +28774,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1732,
-        "worldScrollY": 199,
+        "worldScrollX": 1440,
+        "worldScrollY": 367,
         "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
