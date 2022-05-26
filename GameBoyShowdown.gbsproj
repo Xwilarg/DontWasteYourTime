@@ -10362,7 +10362,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Set boss difficulty",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -10371,7 +10371,7 @@
                                 "args": {
                                     "variable": "3",
                                     "operator": "<=",
-                                    "comparator": 5,
+                                    "comparator": 8,
                                     "__collapseElse": false
                                 },
                                 "children": {
@@ -10394,7 +10394,7 @@
                                             "args": {
                                                 "variable": "3",
                                                 "operator": "<=",
-                                                "comparator": 7,
+                                                "comparator": 10,
                                                 "__collapseElse": false
                                             },
                                             "children": {
@@ -10417,7 +10417,7 @@
                                                         "args": {
                                                             "variable": "3",
                                                             "operator": "<=",
-                                                            "comparator": 12,
+                                                            "comparator": 15,
                                                             "__collapseElse": false
                                                         },
                                                         "children": {
@@ -28774,8 +28774,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1167,
-        "worldScrollY": 197,
+        "worldScrollX": 1732,
+        "worldScrollY": 199,
         "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
