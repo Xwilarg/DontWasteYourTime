@@ -9712,6 +9712,16 @@
                                             "avatarId": ""
                                         },
                                         "id": "274e49ea-7910-4ea8-b1ef-2f8cc99af8ed"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I guess my next\nsteps is to find\nthe culprit"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "099acdcb-fc9a-4566-be61-ff2c1b600b8d"
                                     }
                                 ],
                                 "true1": [
@@ -9724,6 +9734,17 @@
                                             "avatarId": ""
                                         },
                                         "id": "5efb2e41-4e57-4918-b3bb-55011abf1c11"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "J'imagine que ma\nprochaine étape\nest d'aller",
+                                                "trouver le\ncoupable"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "eb73373d-6dd6-4379-ada9-2a99413f6180"
                                     }
                                 ],
                                 "true2": [],
@@ -20364,9 +20385,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3660,
-        "worldScrollY": 1888,
-        "zoom": 310.6501498967409,
+        "worldScrollX": 1961,
+        "worldScrollY": 1446,
+        "zoom": 360.6501498967409,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
