@@ -11448,9 +11448,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
+                                "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
                                 "x": 3,
-                                "y": 8,
+                                "y": 4,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -12799,7 +12799,7 @@
                             "command": "EVENT_SET_FALSE",
                             "args": {
                                 "variable": "4",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "62f1dba4-5d9a-4db9-8200-8e2e8aed883b"
                         },
@@ -12808,7 +12808,7 @@
                             "args": {
                                 "actorId": "$self$",
                                 "speed": 1,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "956c350b-08df-4a79-8d3f-bf6d54715899"
                         },
@@ -12820,7 +12820,7 @@
                                 "y": 2,
                                 "direction": "down",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "db8ffb95-447a-49ba-b4aa-173a75f6f869"
                         }
@@ -13868,6 +13868,50 @@
                         "__collapse": true
                     },
                     "id": "d57a2aca-7935-449b-8909-952a906e20a8"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": false,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "4",
+                                    "__collapse": false
+                                },
+                                "id": "3d60ca22-7344-4f53-97f3-a44459051cf8"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "speed": 1,
+                                    "__collapse": false
+                                },
+                                "id": "38cb98ba-c457-4c83-bc4e-061e9c9a1368"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
+                                    "x": 4,
+                                    "y": 2,
+                                    "direction": "down",
+                                    "fadeSpeed": "2",
+                                    "__collapse": false
+                                },
+                                "id": "1e8eed81-740b-450e-9c65-2a2bea15fd8d"
+                            }
+                        ]
+                    },
+                    "id": "1900e0de-213b-4d00-a51f-43eaeeadb032"
                 }
             ],
             "playerHit1Script": [],
@@ -16719,6 +16763,26 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Digicode",
+            "backgroundId": "84cdcf70-64f8-4e5a-bb61-ee448844b421",
+            "width": 20,
+            "height": 18,
+            "type": "POINTNCLICK",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "15ca210c-2b8e-421d-97a3-fa857505005c",
+            "x": 286,
+            "y": 407.5,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -20977,9 +21041,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2215,
-        "worldScrollY": 563,
-        "zoom": 160.6501498967409,
+        "worldScrollX": 2200,
+        "worldScrollY": 826,
+        "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
