@@ -16339,6 +16339,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "8d951ef7-bb03-4214-9bea-dcee9363467d"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "ef1ea7bc-2c24-4638-b8bc-f3c9d033de4f"
                                                 }
                                             ]
                                         },
@@ -16549,6 +16560,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "e851411c-3eab-4e16-a094-9c0c994e8cae"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "ad5862f9-ec7f-4b64-b39e-adc6e9312ce7"
                                                 }
                                             ]
                                         },
@@ -16818,6 +16840,17 @@
                                                                     "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                                 },
                                                                 "id": "10ca43eb-2831-43e1-9553-4be9cc391b53"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_SET_VALUE",
+                                                                "args": {
+                                                                    "variable": "17",
+                                                                    "value": {
+                                                                        "type": "number",
+                                                                        "value": -1
+                                                                    }
+                                                                },
+                                                                "id": "89e32479-00e4-41b7-b3de-911bce25f5e1"
                                                             }
                                                         ]
                                                     },
@@ -16845,15 +16878,11 @@
                             "id": "408517d5-8414-4376-ae43-8fdd30d1f4d5"
                         },
                         {
-                            "command": "EVENT_SET_VALUE",
+                            "command": "EVENT_INC_VALUE",
                             "args": {
-                                "variable": "17",
-                                "value": {
-                                    "type": "number",
-                                    "value": 0
-                                }
+                                "variable": "17"
                             },
-                            "id": "38e65164-73ae-44b2-9524-a81390c73749"
+                            "id": "cebc40f2-e3de-44c3-b349-a51891ce697b"
                         }
                     ],
                     "leaveScript": []
@@ -17051,6 +17080,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "c2dd46da-5a93-4ab9-9611-867eef365401"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "ccc9e752-fce5-43c7-8179-37bacd90ad35"
                                                 }
                                             ]
                                         },
@@ -17253,6 +17293,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "c3cd5a32-85e3-4b78-af0b-da0f5a4d5460"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "d7ba3905-fae3-44e2-9197-a150854e31b5"
                                                 }
                                             ]
                                         },
@@ -17462,6 +17513,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "926f7142-bab8-4a11-85c2-c17842b4215a"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "84a9c973-70ac-4e1b-90be-449773981185"
                                                 }
                                             ]
                                         },
@@ -17693,6 +17755,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "fb16c92a-0a13-4bc6-a793-9d0b09945128"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "715c67c6-d6da-4f9f-a68a-1ce963b13bea"
                                                 }
                                             ]
                                         },
@@ -17917,6 +17990,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "03dec905-7763-4659-9036-4e6cc9101646"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "379537ea-594c-449e-a6a1-3e02c74fa713"
                                                 }
                                             ]
                                         },
@@ -18119,6 +18203,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "68c47712-338f-4cd4-b3a1-68b977d49165"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "462de1b3-8685-4b37-a2b9-22420d812fdd"
                                                 }
                                             ]
                                         },
@@ -18328,6 +18423,17 @@
                                                         "actorId": "169fa5e6-5149-4f7d-bd97-1afbbc34f384"
                                                     },
                                                     "id": "4a38993d-99d9-4cfd-9217-1bc3c078fc36"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "17",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": -1
+                                                        }
+                                                    },
+                                                    "id": "51c516f6-a3a9-4bae-803b-6980ec93460e"
                                                 }
                                             ]
                                         },
@@ -23243,8 +23349,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 208,
-        "worldScrollY": 464,
+        "worldScrollX": 351,
+        "worldScrollY": 460,
         "zoom": 150,
         "customColorsEnabled": false,
         "sgbEnabled": false,
