@@ -11396,9 +11396,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
-                                "x": 13,
-                                "y": 12,
+                                "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
+                                "x": 3,
+                                "y": 15,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -11413,7 +11413,7 @@
                     "command": "EVENT_SET_TRUE",
                     "args": {
                         "variable": "9",
-                        "__comment": true
+                        "__comment": false
                     },
                     "id": "76fce439-30a3-40be-945b-86479d493a04"
                 },
@@ -15832,6 +15832,13 @@
                             },
                             "children": {
                                 "true": [
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "4"
+                                        },
+                                        "id": "a4fef8e7-c999-4ec1-b91f-88f29cac4c25"
+                                    },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
@@ -20307,9 +20314,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1712,
-        "worldScrollY": 363,
-        "zoom": 160.6501498967409,
+        "worldScrollX": 952,
+        "worldScrollY": 38,
+        "zoom": 110.65014989674091,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
