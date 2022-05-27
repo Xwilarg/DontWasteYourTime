@@ -1908,7 +1908,7 @@
                                 "customEventId": "3bc65eec-2444-4875-8f9d-b77af8a4bcd3",
                                 "$actor[0]$": "e87fa3db-6026-44c8-aff5-55cf8d02a048",
                                 "$variable[0]$": "T0",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "7d950f91-c323-4d99-9186-152acb6fd781"
                         },
@@ -1918,7 +1918,7 @@
                                 "customEventId": "c448f79e-cfdf-426a-bb96-1e272d446a48",
                                 "$actor[0]$": "8bbb524a-6bdf-4836-97e7-14b2f73403cf",
                                 "$variable[0]$": "T0",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "6b2d8371-1bd4-4006-af16-38905111c15a"
                         },
@@ -3237,7 +3237,7 @@
                     "args": {
                         "duration": 20,
                         "__scriptTabs": "end",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "script": [
@@ -3297,7 +3297,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Vous have proven\nyour worth, both\nof you may leave"
+                                                    "You have proven\nyour worth"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -3319,8 +3319,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Tu as prouvé ta\nvaleur, vous \npouvez tous deux",
-                                                    "partir"
+                                                    "Tu as prouvé ta\nvaleur"
                                                 ],
                                                 "avatarId": ""
                                             },
