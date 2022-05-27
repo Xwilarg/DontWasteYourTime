@@ -4437,7 +4437,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "2D art:\nAlexandre Coulon\nVerdent Jack",
+                                                    "2D art:\nAlexandre Coulon\nVerdant Jack",
                                                     "Programming:\nAlexandre Coulon\nChristian Chaux",
                                                     "Sounds & Musics:\nXXX",
                                                     "Quality Assurance:\nTheIndra"
@@ -4452,7 +4452,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Dessins 2D\nVerdent Jack",
+                                                    "Dessins 2D\nVerdant Jack",
                                                     "Programmation:\nAlexandre Coulon\nChristian Chaux",
                                                     "Sons et Musiques:\nXXX",
                                                     "Contrôle Qualité:\nTheIndra"
@@ -33125,9 +33125,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 85,
-        "worldScrollY": 169,
-        "zoom": 175,
+        "worldScrollX": 5,
+        "worldScrollY": 3,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
