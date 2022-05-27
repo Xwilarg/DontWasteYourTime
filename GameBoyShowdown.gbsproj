@@ -4437,7 +4437,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "2D art:\nAlexandre Coulon\nVerdant Jack",
+                                                    "2D art:\nAlexandre Coulon\nJacob Richer",
                                                     "Programming:\nAlexandre Coulon\nChristian Chaux",
                                                     "Sounds & Musics:\nXXX",
                                                     "Quality Assurance:\nTheIndra"
@@ -4452,7 +4452,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Dessins 2D\nVerdant Jack",
+                                                    "Dessins 2D:\nAlexandre Coulon\nJacob Richer",
                                                     "Programmation:\nAlexandre Coulon\nChristian Chaux",
                                                     "Sons et Musiques:\nXXX",
                                                     "Contrôle Qualité:\nTheIndra"
