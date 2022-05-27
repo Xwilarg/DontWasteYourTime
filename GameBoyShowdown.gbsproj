@@ -6804,7 +6804,7 @@
                         "comparator": 1,
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -20580,8 +20580,8 @@
                 {
                     "name": "Books 2",
                     "id": "754cc03a-37bc-4f8a-834f-7c8f9f9b5134",
-                    "x": 4,
-                    "y": 5,
+                    "x": 15,
+                    "y": 6,
                     "width": 4,
                     "height": 2,
                     "script": [
@@ -20631,7 +20631,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "There is a small\npaper in one of\nthe books:"
+                                                "A diploma\naddressed to my\nmaster"
                                             ],
                                             "avatarId": ""
                                         },
@@ -20641,8 +20641,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "\"Don't open the\nbooks, they are\nonly here for",
-                                                "decoration!\""
+                                                "\"Congratulation\nfor joining the\ncircle of the",
+                                                "time lords, the\nmost powerful gods\nof this plan.",
+                                                "Be careful of your\npowers and use\nthem with care\""
                                             ],
                                             "avatarId": ""
                                         },
@@ -20654,7 +20655,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Il y a une note\ndans un des\nlivres:"
+                                                "Un diplôme\naddressé à mon\nmaître"
                                             ],
                                             "avatarId": ""
                                         },
@@ -20664,21 +20665,14 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "\"N'ouvrez pas les\nlivres, ils sont\nseulement ici"
+                                                "\"Félicitation pour\navoir rejoint le\ncercle des maîtres",
+                                                "du temps, les\ndieux les plus\npuissant de ce",
+                                                "plan.\nSoiyez prudent\navec vos pouvoirs",
+                                                "et utilisez les\navec\nresponsabilités\""
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "4678994a-8a27-41ee-9249-a26bede85cc6"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "pour décorer!\""
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "3ff17043-1f94-4be0-9182-8e43ab8be32b"
                                     }
                                 ],
                                 "true2": [],
@@ -20698,6 +20692,920 @@
                                 "false": []
                             },
                             "id": "4d0c5a5a-5745-4566-b9ac-5966b16fb9ec"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "69c693f0-f8bb-4309-b6e4-cac3408e66aa",
+                    "x": 4,
+                    "y": 5,
+                    "width": 2,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The same hourglass\nas the one I found"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "502e8a38-794c-4f45-9d58-641ddab2984c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "However this one\nis broken"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ed4de764-4dd3-446b-98f8-03fc07dfe7f0"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Le même sablier\nque celui que j'ai\ntrouvé"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "96034569-e7ca-4801-a12f-3049a5393eaf"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cependant celui ci\nest cassé"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9a3b878b-b2ea-446d-a0d3-812dfe850aa7"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "84d1468a-094c-471d-9e95-7e64ab48f9c0"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "b5d827fb-fd54-44e8-b3b2-45ae4d1a32dd",
+                    "x": 8,
+                    "y": 13,
+                    "width": 4,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The journal of my\nmaster:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "93bf8322-4a72-45c7-8a4b-1d63dc40289d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"I made one\nmistake too many\nand they had me",
+                                                "to leave the time\nlord organization\nand made me swear",
+                                                "to never use time\nmagic again so I'm\ngoing to lay low,",
+                                                "take an apprentice\nand prepare my\nrevenge\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "de56b690-5e8b-4887-973c-22251431e9b3"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Le journal de mon\nmaître:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d1e19b04-6ed1-4901-8578-f41885ea2450"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"J'ai fait une\nerreur de trop et\nils m'ont viré de",
+                                                "l'organisation des\nmaîtres du temps\net m'ont fait",
+                                                "jurer de ne plus\njamais utiliser la\nmagie du temps",
+                                                "donc je vais faire\nprofile bas,\nprendre un",
+                                                "apprentit et\npréparer ma\nrevanche\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "412c2cd6-8f5a-4c55-a9d0-938f668a90b7"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "497f131e-a0b7-440f-87a6-8df389eb96d9"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "691b99be-b1f1-40ec-ad7d-0b08a137db8c",
+                    "x": 3,
+                    "y": 13,
+                    "width": 2,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "These books\ncontains\nblueprints about",
+                                                "one of my master\ninventions:\na stopwatch that",
+                                                "would allow to\nfreeze time"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "8be85a2b-4383-42db-b121-a55ee40d763a"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ces livres\ncontiennent les\nplans d'une des",
+                                                "inventions de mon\nmaître:\nune montre de",
+                                                "poche qui\npermettrait de\ngeler le temps"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "68c6409e-25ae-4cbb-b307-5d433b6a9beb"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "7174de99-b38c-49c8-bd0e-8491e5eb375c"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "caeb867b-4894-490e-87ea-9ac4bd47ddf3",
+                    "x": 7,
+                    "y": 14,
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A beautiful flower"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2bb7b0a7-ba8c-4319-b99b-c86971f399bd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "It however seems\nfake, as if it was\nfrozen in time"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "034b6d9d-6d32-490f-8e5e-a0856a5c6427"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Une fleur\nmagnifique"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d277c1d0-75be-45f5-8faa-d69ce6adba0f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cependant elle à\nl'air fausse,\ncomme si elle",
+                                                "était figée dans\nle temps"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ac93c60e-36e4-4c44-8cc0-66e1c22a62a5"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "26a56bad-d555-42f2-9f57-cd90f3a3df51"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "0cc54346-998e-4e90-9b50-a8f3ee4d4bae",
+                    "x": 7,
+                    "y": 6,
+                    "width": 5,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The journal of my\nmaster:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "657e39b3-4cde-459a-b26b-f806259b66ae"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"I finally managed\nto manipulate all\nthe known magic",
+                                                "of this world and\nnow... There is\nonly one thing",
+                                                "left for me  to\nlearn more...\nForbidden magic\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4650cedc-f964-4231-8a76-87c839eafe11"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Le journal de mon\nmaître:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d7320ff1-c447-4993-8cab-b61bdab2808c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"J'ai finalement\nréussit à\nmanipuler toutes",
+                                                "les magies connues\nen ce monde et\nmaintenant...",
+                                                "Il y a une seule\nchose restante\npour moi afin ",
+                                                "d'étendre ma\nconnaissance...\nLa magic",
+                                                "interdite\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "723c246d-9445-4058-b1a7-221729a5fc18"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "12bdcc77-8b52-415e-b4f9-56f71e60b806"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "f11c7425-7747-4811-b860-811db66a0446",
+                    "x": 4,
+                    "y": 11,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Magic gems"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f99e1af6-1671-4540-aef1-d86f3bc440ed"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I can feel their\npower from here"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "0065efff-12c9-4589-82dc-224db6db808b"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Des gèmes magiques"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "499eb73d-7e74-413d-bb4b-e4becce79bcd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Je peux sentir\nleurs pouvoirs\nd'ici"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "044ba833-07e7-41d1-8631-9a67b25d8362"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "f8592d31-b949-4577-8a4e-05de591e902f"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "d54ef15a-5a19-4673-9420-2a142cf237d1",
+                    "x": 6,
+                    "y": 10,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A flask full of a\ngreenish potion"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e8ba9a91-e943-4419-b357-09128c7d6ef7"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "However the label\nis missing so I\nhave no idea what",
+                                                "is inside"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "fa62200d-62c4-4639-9de5-0a604639929f"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Une fiole pleine\nd'un liquide\nverdâtre"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "92d551c9-afe4-4c8d-86a1-70aaa585ef24"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cependant\nl'étiquette manque\ndonc je n'ai",
+                                                "aucune idée du\ncontenu"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c9c1121e-5200-4413-8ba0-dc57f92687cb"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "af4c8ba1-0847-4a47-b7ce-cd6a2ebf6a0c"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "d1e7de56-9235-4111-901a-0e19def633e3",
+                    "x": 9,
+                    "y": 10,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A flask full of...\nRum"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9ed0bce9-5c7c-49ff-958c-2bbac9b15766"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I guess my master\nis sometimes in\nneed of...",
+                                                "inspiration"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "5aec7000-7e3e-4569-9f98-9717895ace1f"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Une fiole pleine\nde...\nRhum"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ace90dfa-530e-450e-abfe-defa59c5500e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Je suppose que mon\nmaître avait\nparfois besoin...",
+                                                "d'inspiration"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "54dd7565-6567-47e2-a30b-eac728d2bd6d"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "67d8b57c-b1c1-4c5e-8c7d-1a1549232942"
                         }
                     ],
                     "leaveScript": []
@@ -31742,9 +32650,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1,
-        "worldScrollY": 903,
-        "zoom": 225,
+        "worldScrollX": 0,
+        "worldScrollY": 1099,
+        "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
