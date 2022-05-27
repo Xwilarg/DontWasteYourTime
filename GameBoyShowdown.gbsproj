@@ -11451,8 +11451,8 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "69a23bda-9272-411a-8c90-de72ec3462e6",
-                                "x": 5,
+                                "sceneId": "51b1a5d1-24b9-46c7-9a2c-c387c81c266e",
+                                "x": 11,
                                 "y": 7,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -27178,7 +27178,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "Book_actor.png",
-            "checksum": "bd43d0ede127d4f132d5836cb2bd96826e0fdd84",
+            "checksum": "91dfafe83f14dcfb6cc956d70df782f2c400124f",
             "width": 32,
             "height": 16,
             "states": [
@@ -27321,7 +27321,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -31112,8 +31112,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 501,
-        "zoom": 225,
+        "worldScrollY": 0,
+        "zoom": 75,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
