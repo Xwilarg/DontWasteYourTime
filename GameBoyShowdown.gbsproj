@@ -11270,7 +11270,9 @@
                         "value14": 15,
                         "__collapseCase15": false,
                         "value15": 16,
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__disableElse": true,
+                        "__collapse": true
                     },
                     "children": {
                         "true0": [
@@ -11300,7 +11302,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "Be careful of your\npowers and use\nthem with care\""
+                                        "Be careful of your\npowers and use\nthem with care"
                                     ],
                                     "avatarId": ""
                                 },
@@ -11359,6 +11361,108 @@
                         "false": []
                     },
                     "id": "e333e6ad-04e8-437f-b938-14f60501bf07"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 0.5
+                    },
+                    "id": "43c54c1e-e96c-4a54-a837-ee53fd456246"
+                },
+                {
+                    "command": "EVENT_SWITCH",
+                    "args": {
+                        "variable": "5",
+                        "choices": 2,
+                        "__collapseCase0": false,
+                        "value0": 0,
+                        "__collapseCase1": false,
+                        "value1": 1,
+                        "__collapseCase2": false,
+                        "value2": 3,
+                        "__collapseCase3": false,
+                        "value3": 4,
+                        "__collapseCase4": false,
+                        "value4": 5,
+                        "__collapseCase5": false,
+                        "value5": 6,
+                        "__collapseCase6": false,
+                        "value6": 7,
+                        "__collapseCase7": false,
+                        "value7": 8,
+                        "__collapseCase8": false,
+                        "value8": 9,
+                        "__collapseCase9": false,
+                        "value9": 10,
+                        "__collapseCase10": false,
+                        "value10": 11,
+                        "__collapseCase11": false,
+                        "value11": 12,
+                        "__collapseCase12": false,
+                        "value12": 13,
+                        "__collapseCase13": false,
+                        "value13": 14,
+                        "__collapseCase14": false,
+                        "value14": 15,
+                        "__collapseCase15": false,
+                        "value15": 16,
+                        "__collapseElse": false,
+                        "__disableElse": true,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true0": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Thanks for playing"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "6fc14712-61ce-45ae-a9d0-f05aa1c7e116"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Merci d'avoir\njouer"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "8b7d8bc0-b0f7-4829-a917-9faf57c71f1f"
+                            }
+                        ],
+                        "true2": [],
+                        "true3": [],
+                        "true4": [],
+                        "true5": [],
+                        "true6": [],
+                        "true7": [],
+                        "true8": [],
+                        "true9": [],
+                        "true10": [],
+                        "true11": [],
+                        "true12": [],
+                        "true13": [],
+                        "true14": [],
+                        "true15": [],
+                        "false": []
+                    },
+                    "id": "e839d277-f5fb-4f8d-a1cf-4c61b0d7891f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "fadb42ab-660d-4681-8e57-0a04a4654462"
                 }
             ],
             "playerHit1Script": [],
@@ -11759,9 +11863,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
-                                "x": 3,
-                                "y": 12,
+                                "sceneId": "f4a6184f-ed69-4a28-9dcb-bc360c1febc8",
+                                "x": 1,
+                                "y": 0,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -25707,7 +25811,7 @@
             "name": "Victory_ceremony",
             "width": 20,
             "height": 18,
-            "imageWidth": 166,
+            "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Victory_ceremony.png",
             "tileColors": [
@@ -33749,6 +33853,10 @@
         {
             "id": "457c2fa1-c72b-43f5-b04a-0058c4d89030__L0",
             "name": "_playerXPos"
+        },
+        {
+            "id": "f4a6184f-ed69-4a28-9dcb-bc360c1febc8__L0",
+            "name": "Local 0"
         }
     ],
     "engineFieldValues": [
@@ -33770,7 +33878,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -33778,9 +33886,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1413,
-        "worldScrollY": 19,
-        "zoom": 125,
+        "worldScrollX": 2538,
+        "worldScrollY": 452,
+        "zoom": 175,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
