@@ -4255,10 +4255,19 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "loop": true
+                    },
+                    "id": "b95b4726-0d66-4f32-b387-3a65298e8029"
+                },
+                {
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "12",
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -4283,7 +4292,8 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "539e8b90-a395-4dfc-be9d-9603f5f8b9d9"
                 },
@@ -4425,7 +4435,8 @@
                         "__collapseCase15": false,
                         "value15": 16,
                         "__collapseElse": false,
-                        "__disableElse": true
+                        "__disableElse": true,
+                        "__collapse": false
                     },
                     "children": {
                         "true0": [
@@ -4529,7 +4540,7 @@
                                                 "text": [
                                                     "2D art:\nAlexandre Coulon\nJacob Richer",
                                                     "Programming:\nAlexandre Coulon\nChristian Chaux",
-                                                    "Sounds & Musics:\nXXX",
+                                                    "Sounds & Musics:\nAlexandre Coulon",
                                                     "Quality Assurance:\nTheIndra"
                                                 ],
                                                 "avatarId": ""
@@ -4544,7 +4555,7 @@
                                                 "text": [
                                                     "Dessins 2D:\nAlexandre Coulon\nJacob Richer",
                                                     "Programmation:\nAlexandre Coulon\nChristian Chaux",
-                                                    "Sons et Musiques:\nXXX",
+                                                    "Sons et Musiques:\nAlexandre Coulon",
                                                     "Contrôle Qualité:\nTheIndra"
                                                 ],
                                                 "avatarId": ""
@@ -4609,7 +4620,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Labyrinth_present",
@@ -32981,6 +32993,13 @@
             "filename": "template.mod",
             "settings": {},
             "type": "mod"
+        },
+        {
+            "id": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+            "name": "theme_present",
+            "filename": "theme_present.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
     "fonts": [
@@ -33207,7 +33226,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -33215,9 +33234,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 85.41668701171875,
+        "worldScrollX": 85,
+        "worldScrollY": 55,
+        "zoom": 185.41668701171875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
