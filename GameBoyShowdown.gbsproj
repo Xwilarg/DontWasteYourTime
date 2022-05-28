@@ -6067,7 +6067,7 @@
                         "comparator": "0",
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -6118,8 +6118,8 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "...It is strange\nMy master usually\ndon't let me sleep",
-                                                    "that long"
+                                                    "...It is strange\nMy master usually",
+                                                    "don't let me \nsleep that long"
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -11863,9 +11863,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "ad103a5d-daae-4afd-acf0-5f614202d1b9",
-                                "x": 6,
-                                "y": 5,
+                                "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
+                                "x": 2,
+                                "y": 8,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -15509,12 +15509,26 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_HIDE",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "actorId": "$self$",
+                                "variable": "14",
+                                "__collapseElse": true,
+                                "__disableElse": true,
                                 "__collapse": true
                             },
-                            "id": "81697294-bfbf-44f7-9b39-5bf3a2d37abf"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "9fc6a26f-b25b-4d71-8ebc-8524cb841220"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "c2426325-8225-41bd-8f61-cb2142b0a5d7"
                         }
                     ],
                     "updateScript": [],
@@ -15539,11 +15553,26 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_HIDE",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "actorId": "$self$"
+                                "variable": "13",
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "__collapse": true
                             },
-                            "id": "1b7cacd5-2ae9-44bb-8109-a699d0e9fd0f"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "1b7cacd5-2ae9-44bb-8109-a699d0e9fd0f"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "76f407c0-cf0a-4c18-aa9f-90a248941b3b"
                         }
                     ],
                     "updateScript": [],
@@ -33877,7 +33906,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
+        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -33885,9 +33914,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1148,
-        "worldScrollY": 196,
-        "zoom": 125,
+        "worldScrollX": 4512,
+        "worldScrollY": 524.5440063476562,
+        "zoom": 320.31251525878906,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -33915,9 +33944,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            379,
-            209,
-            360
+            282,
+            155,
+            268
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
