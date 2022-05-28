@@ -33878,7 +33878,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -33886,9 +33886,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2538,
-        "worldScrollY": 452,
-        "zoom": 175,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 75,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
