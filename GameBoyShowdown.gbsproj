@@ -904,7 +904,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Handle Time Travel"
                     },
                     "children": {
@@ -928,7 +928,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -966,6 +966,14 @@
                                                 "__collapse": true
                                             },
                                             "id": "69b8a9ab-2276-46ce-b7da-b9aa4987f550"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "loop": true
+                                            },
+                                            "id": "bcf731b0-0432-4c5b-8e1b-1679124d8deb"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -1517,7 +1525,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Handle Time Travel"
                     },
                     "children": {
@@ -1541,7 +1549,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -1576,6 +1584,14 @@
                                                 "variable": "4"
                                             },
                                             "id": "77c738fa-4edf-4713-bac1-af45b856eba1"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "9429f730-19b6-495e-a9bf-537cadffec43"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -4255,10 +4271,19 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "loop": true
+                    },
+                    "id": "b95b4726-0d66-4f32-b387-3a65298e8029"
+                },
+                {
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "12",
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -4283,7 +4308,8 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "539e8b90-a395-4dfc-be9d-9603f5f8b9d9"
                 },
@@ -4425,7 +4451,8 @@
                         "__collapseCase15": false,
                         "value15": 16,
                         "__collapseElse": false,
-                        "__disableElse": true
+                        "__disableElse": true,
+                        "__collapse": false
                     },
                     "children": {
                         "true0": [
@@ -4529,7 +4556,7 @@
                                                 "text": [
                                                     "2D art:\nAlexandre Coulon\nJacob Richer",
                                                     "Programming:\nAlexandre Coulon\nChristian Chaux",
-                                                    "Sounds & Musics:\nXXX",
+                                                    "Sounds & Musics:\nAlexandre Coulon",
                                                     "Quality Assurance:\nTheIndra"
                                                 ],
                                                 "avatarId": ""
@@ -4544,7 +4571,7 @@
                                                 "text": [
                                                     "Dessins 2D:\nAlexandre Coulon\nJacob Richer",
                                                     "Programmation:\nAlexandre Coulon\nChristian Chaux",
-                                                    "Sons et Musiques:\nXXX",
+                                                    "Sons et Musiques:\nAlexandre Coulon",
                                                     "Contrôle Qualité:\nTheIndra"
                                                 ],
                                                 "avatarId": ""
@@ -4609,7 +4636,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Labyrinth_present",
@@ -5024,7 +5052,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Handle Time Travel",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -5047,7 +5075,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -5085,6 +5113,14 @@
                                                 "__collapse": true
                                             },
                                             "id": "034ec962-1caa-4160-ac8b-94be1fcb888e"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "loop": true
+                                            },
+                                            "id": "d690de10-d86e-47f6-834d-ec64fe6dc3c0"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -5483,8 +5519,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "16aacbba-cad7-4716-99b3-d193460234c5",
-            "x": 1077.2191615289596,
-            "y": 411.8193358752221,
+            "x": 1084.2303967146997,
+            "y": 414.5159647928144,
             "actors": [],
             "triggers": [
                 {
@@ -5546,7 +5582,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -5581,6 +5617,14 @@
                                                 "__collapse": false
                                             },
                                             "id": "80d4b9d7-7ffa-4c0b-ad71-088dfe6c9fd6"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "84ce8526-88ef-4e4e-b9bb-2e1e68773e6a"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -6161,7 +6205,7 @@
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__label": "Handle Time Travel"
                                 },
                                 "children": {
@@ -6185,7 +6229,7 @@
                                                 ],
                                                 "override": false,
                                                 "__scriptTabs": "press",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -6220,6 +6264,14 @@
                                                             "variable": "4"
                                                         },
                                                         "id": "79d9c6b5-7f29-4ad4-bcbc-d7cfaad44310"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_MUSIC_PLAY",
+                                                        "args": {
+                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "loop": true
+                                                        },
+                                                        "id": "0463d9e5-60a8-41a5-bcf2-9cf7e5d5cbfa"
                                                     },
                                                     {
                                                         "command": "EVENT_SWITCH_SCENE",
@@ -6804,6 +6856,14 @@
                                         "id": "55d1954c-188c-4837-9ce3-8902fceed198"
                                     },
                                     {
+                                        "command": "EVENT_MUSIC_PLAY",
+                                        "args": {
+                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                            "loop": true
+                                        },
+                                        "id": "14445184-2d47-4d05-9984-200ca24d44ef"
+                                    },
+                                    {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "557b8f62-aec6-4d21-ad17-41c75bfd9330",
@@ -7095,7 +7155,7 @@
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__label": "Handle Time Travel"
                                 },
                                 "children": {
@@ -7119,7 +7179,7 @@
                                                 ],
                                                 "override": false,
                                                 "__scriptTabs": "press",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -7154,6 +7214,14 @@
                                                             "variable": "4"
                                                         },
                                                         "id": "76c7dc97-91b3-4e0a-a480-6539761f0934"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_MUSIC_PLAY",
+                                                        "args": {
+                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "loop": true
+                                                        },
+                                                        "id": "5a5b9149-c004-4176-837f-9c8adbdde63e"
                                                     },
                                                     {
                                                         "command": "EVENT_SWITCH_SCENE",
@@ -7989,7 +8057,7 @@
                                                 ],
                                                 "override": false,
                                                 "__scriptTabs": "press",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -8024,6 +8092,14 @@
                                                             "variable": "4"
                                                         },
                                                         "id": "9365372e-570c-442c-9d4e-6b3a927826d2"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_MUSIC_PLAY",
+                                                        "args": {
+                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "loop": true
+                                                        },
+                                                        "id": "a18ef8a4-09d8-42c3-bf26-6856cfa94e3b"
                                                     },
                                                     {
                                                         "command": "EVENT_SWITCH_SCENE",
@@ -8467,7 +8543,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Handle Time Travel"
                     },
                     "children": {
@@ -8491,7 +8567,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -8526,6 +8602,14 @@
                                                 "variable": "4"
                                             },
                                             "id": "0fef7a59-c1ed-409f-91d0-5eca46d37f4f"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "3a0e2332-7247-421b-ba56-a61272da9d91"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -9313,7 +9397,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Handle Time Travel"
                     },
                     "children": {
@@ -9337,7 +9421,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -9372,6 +9456,14 @@
                                                 "variable": "4"
                                             },
                                             "id": "e551e548-a506-4906-9de5-1b58ecc4fdd9"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "1153a391-26e3-45b4-b627-fbfd99ad6c73"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -9975,7 +10067,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Handle Time Travel"
                     },
                     "children": {
@@ -9999,7 +10091,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -10034,6 +10126,14 @@
                                                 "variable": "4"
                                             },
                                             "id": "f14cef69-a261-499a-8be4-b434ccec4f59"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "f204528e-e8b6-4555-bca7-b78ec1201e33"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -11542,9 +11642,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "2b0c569e-4864-4e22-a3a8-9925326be31f",
-                                "x": 4,
-                                "y": 5,
+                                "sceneId": "ecc2dd0d-30a4-47f2-a59b-75b1c0f75a99",
+                                "x": 3,
+                                "y": 12,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -13665,7 +13765,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Handle Time Travel",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -13688,7 +13788,7 @@
                                     ],
                                     "override": false,
                                     "__scriptTabs": "press",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -13726,6 +13826,14 @@
                                                 "__collapse": true
                                             },
                                             "id": "5e3c4e34-2917-4a83-8f1f-50df7a1e0111"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "loop": true
+                                            },
+                                            "id": "f7d259ec-6e75-4075-bb0a-167540afb68e"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -14165,7 +14273,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Handle Time Travel",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -14223,6 +14331,14 @@
                                                 "__collapse": false
                                             },
                                             "id": "15db84cd-71d4-49ed-b2c1-cccd7017df62"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "c13156f0-3480-4493-9171-34a526af2c30"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -15496,6 +15612,14 @@
                                             "id": "57d4fafb-a519-45cd-950a-5ed5d2c3a024"
                                         },
                                         {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "loop": true
+                                            },
+                                            "id": "ff472b6c-d6a7-451a-b8f2-8be72635e780"
+                                        },
+                                        {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
                                                 "sceneId": "1846c53a-5af1-4848-8c4e-3cdbda911733",
@@ -16069,6 +16193,14 @@
                                                 "__collapse": true
                                             },
                                             "id": "c9b54dbb-e7cd-4485-a5d0-1a2fab568a0c"
+                                        },
+                                        {
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                "loop": true
+                                            },
+                                            "id": "e5fe7bf2-cbc4-44b8-9c0d-bbe835e6ec0e"
                                         },
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
@@ -19168,6 +19300,14 @@
                                                         "id": "4013782a-d702-4f29-932e-0241e408e7ce"
                                                     },
                                                     {
+                                                        "command": "EVENT_MUSIC_PLAY",
+                                                        "args": {
+                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "loop": true
+                                                        },
+                                                        "id": "844515f2-3ee4-44cf-9a72-5ea473344fdd"
+                                                    },
+                                                    {
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
                                                             "sceneId": "51b1a5d1-24b9-46c7-9a2c-c387c81c266e",
@@ -19682,6 +19822,14 @@
                                                         "id": "1b6f837f-d717-4b67-b4f7-920ed5f47995"
                                                     },
                                                     {
+                                                        "command": "EVENT_MUSIC_PLAY",
+                                                        "args": {
+                                                            "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                                            "loop": true
+                                                        },
+                                                        "id": "76a49222-c241-453f-9598-4910800f2cdf"
+                                                    },
+                                                    {
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
                                                             "sceneId": "bd54d4ec-eb4b-44ab-a608-edb183a72351",
@@ -20189,94 +20337,7 @@
                     "leaveScript": []
                 }
             ],
-            "script": [
-                {
-                    "command": "EVENT_GROUP",
-                    "args": {
-                        "__label": "Handle Time Travel",
-                        "__collapse": false
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_CALL_CUSTOM_EVENT",
-                                "args": {
-                                    "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
-                                    "$variable[1]$": "1",
-                                    "$variable[2]$": "2",
-                                    "__collapse": true,
-                                    "$variable[3]$": "4"
-                                },
-                                "id": "c95d0c74-9ed8-4f82-a883-02e2ea4020e4"
-                            },
-                            {
-                                "command": "EVENT_SET_INPUT_SCRIPT",
-                                "args": {
-                                    "input": [
-                                        "select"
-                                    ],
-                                    "override": false,
-                                    "__scriptTabs": "press",
-                                    "__collapse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_ACTOR_GET_DIRECTION",
-                                            "args": {
-                                                "actorId": "$self$",
-                                                "direction": "2",
-                                                "__collapse": true
-                                            },
-                                            "id": "c0e6cbd9-64d0-4166-a7f5-dc76439ccbe7"
-                                        },
-                                        {
-                                            "command": "EVENT_INC_VALUE",
-                                            "args": {
-                                                "variable": "3",
-                                                "__collapse": true
-                                            },
-                                            "id": "aaf514ab-5774-4743-85f9-da6e0eeb6a12"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_TRUE",
-                                            "args": {
-                                                "variable": "4",
-                                                "__collapse": true
-                                            },
-                                            "id": "fb7f6de5-f6ef-4e3d-802e-f1ecb7ff8a44"
-                                        },
-                                        {
-                                            "command": "EVENT_ACTOR_GET_POSITION",
-                                            "args": {
-                                                "actorId": "$self$",
-                                                "vectorX": "0",
-                                                "vectorY": "1",
-                                                "__collapse": true
-                                            },
-                                            "id": "490738a5-5bcf-4528-aefe-e02e6c886e20"
-                                        },
-                                        {
-                                            "command": "EVENT_SWITCH_SCENE",
-                                            "args": {
-                                                "sceneId": "27ebf9c1-fb6e-4ad2-9809-bd50d6935a40",
-                                                "x": 0,
-                                                "y": 0,
-                                                "direction": "",
-                                                "fadeSpeed": 3,
-                                                "__collapse": false
-                                            },
-                                            "id": "4a05433b-afe0-4e20-94b9-44f566aa7b33"
-                                        }
-                                    ]
-                                },
-                                "id": "f19045c0-9a81-41b4-ae56-49c236a2e34f"
-                            }
-                        ]
-                    },
-                    "id": "d1b18eaa-52ac-4f40-a5ad-41b7af29c22a"
-                }
-            ],
+            "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -32981,6 +33042,20 @@
             "filename": "template.mod",
             "settings": {},
             "type": "mod"
+        },
+        {
+            "id": "15dab855-10d3-4c57-9f54-4056c3dd106a",
+            "name": "theme_past",
+            "filename": "theme_past.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+            "name": "theme_present",
+            "filename": "theme_present.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
     "fonts": [
@@ -33207,7 +33282,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -33215,9 +33290,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 85.41668701171875,
+        "worldScrollX": 40,
+        "worldScrollY": 115,
+        "zoom": 135.41668701171875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
