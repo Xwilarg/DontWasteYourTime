@@ -5495,8 +5495,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "16aacbba-cad7-4716-99b3-d193460234c5",
-            "x": 1077.2191615289596,
-            "y": 411.8193358752221,
+            "x": 1084.2303967146997,
+            "y": 414.5159647928144,
             "actors": [],
             "triggers": [
                 {
@@ -20201,94 +20201,7 @@
                     "leaveScript": []
                 }
             ],
-            "script": [
-                {
-                    "command": "EVENT_GROUP",
-                    "args": {
-                        "__label": "Handle Time Travel",
-                        "__collapse": false
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_CALL_CUSTOM_EVENT",
-                                "args": {
-                                    "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
-                                    "$variable[1]$": "1",
-                                    "$variable[2]$": "2",
-                                    "__collapse": true,
-                                    "$variable[3]$": "4"
-                                },
-                                "id": "c95d0c74-9ed8-4f82-a883-02e2ea4020e4"
-                            },
-                            {
-                                "command": "EVENT_SET_INPUT_SCRIPT",
-                                "args": {
-                                    "input": [
-                                        "select"
-                                    ],
-                                    "override": false,
-                                    "__scriptTabs": "press",
-                                    "__collapse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_ACTOR_GET_DIRECTION",
-                                            "args": {
-                                                "actorId": "$self$",
-                                                "direction": "2",
-                                                "__collapse": true
-                                            },
-                                            "id": "c0e6cbd9-64d0-4166-a7f5-dc76439ccbe7"
-                                        },
-                                        {
-                                            "command": "EVENT_INC_VALUE",
-                                            "args": {
-                                                "variable": "3",
-                                                "__collapse": true
-                                            },
-                                            "id": "aaf514ab-5774-4743-85f9-da6e0eeb6a12"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_TRUE",
-                                            "args": {
-                                                "variable": "4",
-                                                "__collapse": true
-                                            },
-                                            "id": "fb7f6de5-f6ef-4e3d-802e-f1ecb7ff8a44"
-                                        },
-                                        {
-                                            "command": "EVENT_ACTOR_GET_POSITION",
-                                            "args": {
-                                                "actorId": "$self$",
-                                                "vectorX": "0",
-                                                "vectorY": "1",
-                                                "__collapse": true
-                                            },
-                                            "id": "490738a5-5bcf-4528-aefe-e02e6c886e20"
-                                        },
-                                        {
-                                            "command": "EVENT_SWITCH_SCENE",
-                                            "args": {
-                                                "sceneId": "27ebf9c1-fb6e-4ad2-9809-bd50d6935a40",
-                                                "x": 0,
-                                                "y": 0,
-                                                "direction": "",
-                                                "fadeSpeed": 3,
-                                                "__collapse": false
-                                            },
-                                            "id": "4a05433b-afe0-4e20-94b9-44f566aa7b33"
-                                        }
-                                    ]
-                                },
-                                "id": "f19045c0-9a81-41b4-ae56-49c236a2e34f"
-                            }
-                        ]
-                    },
-                    "id": "d1b18eaa-52ac-4f40-a5ad-41b7af29c22a"
-                }
-            ],
+            "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -32995,6 +32908,13 @@
             "type": "mod"
         },
         {
+            "id": "15dab855-10d3-4c57-9f54-4056c3dd106a",
+            "name": "theme_past",
+            "filename": "theme_past.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
             "name": "theme_present",
             "filename": "theme_present.uge",
@@ -33234,8 +33154,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 85,
-        "worldScrollY": 55,
+        "worldScrollX": 23,
+        "worldScrollY": 146,
         "zoom": 185.41668701171875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
