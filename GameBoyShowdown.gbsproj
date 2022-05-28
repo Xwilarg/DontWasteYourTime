@@ -12534,7 +12534,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "There is a label\non the key:\n\"Support key\""
+                                                "This is probably\nthe key of the\nproblem"
                                             ],
                                             "avatarId": ""
                                         },
@@ -12544,7 +12544,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh it's just a\nkeystone"
+                                                "Nevermind, it's\ntoo rusty to be\nused"
                                             ],
                                             "avatarId": ""
                                         },
@@ -12556,8 +12556,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Il y a une\nétiquette sur la\nclé:",
-                                                "\"Clé de  soutiens\""
+                                                "C'est probablement\nla clé du\nproblème"
                                             ],
                                             "avatarId": ""
                                         },
@@ -12567,7 +12566,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh, c'est juste\nune clé de voute"
+                                                "Ah non, elle est\ntrop rouillé pour\nêtre utilisée"
                                             ],
                                             "avatarId": ""
                                         },
@@ -33886,8 +33885,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 143,
+        "worldScrollX": 1148,
+        "worldScrollY": 196,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
