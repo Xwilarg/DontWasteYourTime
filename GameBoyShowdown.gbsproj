@@ -4273,7 +4273,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
                         "loop": true
                     },
                     "id": "b95b4726-0d66-4f32-b387-3a65298e8029"
@@ -7682,8 +7682,8 @@
                                 "variable": "6",
                                 "operator": ">=",
                                 "comparator": 4,
-                                "__collapseElse": true,
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -7693,6 +7693,14 @@
                                             "variable": "4"
                                         },
                                         "id": "f7cf3653-6974-4820-a5e5-5ec6a22c8c61"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 15
+                                        },
+                                        "id": "62e8a756-1a08-450f-a2b1-3243fc70945c"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -9066,7 +9074,7 @@
                                 "operator": ">=",
                                 "comparator": 4,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -9076,6 +9084,14 @@
                                             "variable": "4"
                                         },
                                         "id": "81068998-09c1-4f4c-9866-8eb4abb2a802"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 15
+                                        },
+                                        "id": "72cd2200-f9ab-4d98-a5c7-9dc9825804e7"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -13995,7 +14011,7 @@
                                     "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
                                     "$variable[1]$": "1",
                                     "$variable[2]$": "2",
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "$variable[3]$": "4"
                                 },
                                 "id": "3ba31094-e302-4e1c-b449-b27e4c5e18cc"
@@ -24810,7 +24826,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Old_shelf-export.png"
+            "filename": "Old_shelf-export.png",
+            "tileColors": []
         },
         {
             "id": "76292a83-3b28-4aee-9c80-a7b7cb703f48",
@@ -33997,7 +34014,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "1d78d204-f847-4b70-ad85-978c396132d1",
+        "startSceneId": "9bc343d8-654c-4b26-9c6b-fca83f398fec",
         "startX": 9,
         "startY": 1,
         "startMoveSpeed": 1,
@@ -34005,9 +34022,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 201.98399353027344,
-        "worldScrollY": 2545.919921875,
-        "zoom": 415.6250305175781,
+        "worldScrollX": 0,
+        "worldScrollY": 46,
+        "zoom": 115.62503051757812,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -34035,9 +34052,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            282,
-            155,
-            268
+            379,
+            208,
+            360
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
