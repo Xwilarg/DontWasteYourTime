@@ -5126,7 +5126,7 @@
                                         {
                                             "command": "EVENT_MUSIC_PLAY",
                                             "args": {
-                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                 "loop": true
                                             },
                                             "id": "d690de10-d86e-47f6-834d-ec64fe6dc3c0"
@@ -6277,7 +6277,7 @@
                                                     {
                                                         "command": "EVENT_MUSIC_PLAY",
                                                         "args": {
-                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                             "loop": true
                                                         },
                                                         "id": "0463d9e5-60a8-41a5-bcf2-9cf7e5d5cbfa"
@@ -6867,7 +6867,7 @@
                                     {
                                         "command": "EVENT_MUSIC_PLAY",
                                         "args": {
-                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                            "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                             "loop": true
                                         },
                                         "id": "14445184-2d47-4d05-9984-200ca24d44ef"
@@ -7227,7 +7227,7 @@
                                                     {
                                                         "command": "EVENT_MUSIC_PLAY",
                                                         "args": {
-                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                             "loop": true
                                                         },
                                                         "id": "5a5b9149-c004-4176-837f-9c8adbdde63e"
@@ -8113,7 +8113,7 @@
                                                     {
                                                         "command": "EVENT_MUSIC_PLAY",
                                                         "args": {
-                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                             "loop": true
                                                         },
                                                         "id": "a18ef8a4-09d8-42c3-bf26-6856cfa94e3b"
@@ -14083,7 +14083,7 @@
                                         {
                                             "command": "EVENT_MUSIC_PLAY",
                                             "args": {
-                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                 "loop": true
                                             },
                                             "id": "f7d259ec-6e75-4075-bb0a-167540afb68e"
@@ -15978,7 +15978,7 @@
                                         {
                                             "command": "EVENT_MUSIC_PLAY",
                                             "args": {
-                                                "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                 "loop": true
                                             },
                                             "id": "ff472b6c-d6a7-451a-b8f2-8be72635e780"
@@ -19666,7 +19666,7 @@
                                                     {
                                                         "command": "EVENT_MUSIC_PLAY",
                                                         "args": {
-                                                            "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                                                            "musicId": "15dab855-10d3-4c57-9f54-4056c3dd106a",
                                                             "loop": true
                                                         },
                                                         "id": "844515f2-3ee4-44cf-9a72-5ea473344fdd"
@@ -20089,9 +20089,17 @@
                             "command": "EVENT_SET_FALSE",
                             "args": {
                                 "variable": "4",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "893362f4-0f94-4a19-b86e-c7c1d540e90f"
+                        },
+                        {
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                                "loop": true
+                            },
+                            "id": "dfcd3784-a0bd-41d2-968b-64dfc1bdf7e2"
                         },
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -34046,8 +34054,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollX": 1186,
+        "worldScrollY": 80,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
