@@ -14976,7 +14976,7 @@
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
-                                "variable": "13",
+                                "variable": "14",
                                 "__collapseElse": true,
                                 "__collapse": true,
                                 "__disableElse": true
@@ -14995,9 +14995,18 @@
                                                 "type": "number",
                                                 "value": 14
                                             },
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "a47d97bc-62f3-414c-ac67-e5810cf2a82f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 255,
+                                            "__collapse": true
+                                        },
+                                        "id": "d81cdafb-6097-4ccd-b02b-6a916c71cdc2"
                                     }
                                 ],
                                 "false": []
@@ -15030,7 +15039,7 @@
                                                         "x": 15,
                                                         "y": 15,
                                                         "__collapseElse": true,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -15278,7 +15287,7 @@
                             "args": {
                                 "variable": "13",
                                 "__collapseElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true
                             },
                             "children": {
@@ -15298,6 +15307,15 @@
                                             "__collapse": true
                                         },
                                         "id": "1ce1f0c5-5db6-4ea1-b797-d9e12dac9bd1"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 255,
+                                            "__collapse": true
+                                        },
+                                        "id": "755fe7cd-a444-42d7-9b74-50bfb79816e8"
                                     }
                                 ],
                                 "false": []
@@ -15330,7 +15348,7 @@
                                                         "x": 15,
                                                         "y": 8,
                                                         "__collapseElse": false,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -33978,9 +33996,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 8599.2958984375,
-        "worldScrollY": 1364.7359619140625,
-        "zoom": 580.7292022705078,
+        "worldScrollX": 4481.27978515625,
+        "worldScrollY": 624.3839721679688,
+        "zoom": 320.31251525878906,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
