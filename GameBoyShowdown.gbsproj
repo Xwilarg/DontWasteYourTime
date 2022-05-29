@@ -7682,8 +7682,8 @@
                                 "variable": "6",
                                 "operator": ">=",
                                 "comparator": 4,
-                                "__collapseElse": true,
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -7693,6 +7693,14 @@
                                             "variable": "4"
                                         },
                                         "id": "f7cf3653-6974-4820-a5e5-5ec6a22c8c61"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 15
+                                        },
+                                        "id": "62e8a756-1a08-450f-a2b1-3243fc70945c"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -9066,7 +9074,7 @@
                                 "operator": ">=",
                                 "comparator": 4,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -9076,6 +9084,14 @@
                                             "variable": "4"
                                         },
                                         "id": "81068998-09c1-4f4c-9866-8eb4abb2a802"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "speed": 15
+                                        },
+                                        "id": "72cd2200-f9ab-4d98-a5c7-9dc9825804e7"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -13995,7 +14011,7 @@
                                     "customEventId": "28013c3e-743b-43ca-a8d5-c11ff45def09",
                                     "$variable[1]$": "1",
                                     "$variable[2]$": "2",
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "$variable[3]$": "4"
                                 },
                                 "id": "3ba31094-e302-4e1c-b449-b27e4c5e18cc"
@@ -34007,8 +34023,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 215.62503051757812,
+        "worldScrollY": 46,
+        "zoom": 115.62503051757812,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
