@@ -11863,9 +11863,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "9e29bbaa-90d1-4dea-94db-39a1f2cf4d4a",
-                                "x": 2,
-                                "y": 8,
+                                "sceneId": "e7e27d88-355b-4dd0-848d-4d74e5c444f8",
+                                "x": 14,
+                                "y": 5,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -21324,127 +21324,6 @@
                 },
                 {
                     "name": "Books 2",
-                    "id": "b5d827fb-fd54-44e8-b3b2-45ae4d1a32dd",
-                    "x": 8,
-                    "y": 13,
-                    "width": 4,
-                    "height": 3,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH",
-                            "args": {
-                                "variable": "5",
-                                "choices": 2,
-                                "__collapseCase0": false,
-                                "value0": 0,
-                                "__collapseCase1": false,
-                                "value1": 1,
-                                "__collapseCase2": false,
-                                "value2": 3,
-                                "__collapseCase3": false,
-                                "value3": 4,
-                                "__collapseCase4": false,
-                                "value4": 5,
-                                "__collapseCase5": false,
-                                "value5": 6,
-                                "__collapseCase6": false,
-                                "value6": 7,
-                                "__collapseCase7": false,
-                                "value7": 8,
-                                "__collapseCase8": false,
-                                "value8": 9,
-                                "__collapseCase9": false,
-                                "value9": 10,
-                                "__collapseCase10": false,
-                                "value10": 11,
-                                "__collapseCase11": false,
-                                "value11": 12,
-                                "__collapseCase12": false,
-                                "value12": 13,
-                                "__collapseCase13": false,
-                                "value13": 14,
-                                "__collapseCase14": false,
-                                "value14": 15,
-                                "__collapseCase15": false,
-                                "value15": 16,
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true0": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "The journal of my\nmaster:"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "93bf8322-4a72-45c7-8a4b-1d63dc40289d"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "\"I made one\nmistake too many\nand they had me",
-                                                "to leave the time\nlord organization\nand made me swear",
-                                                "to never use time\nmagic again so I'm\ngoing to lay low,",
-                                                "take an apprentice\nand prepare my\nrevenge\""
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "de56b690-5e8b-4887-973c-22251431e9b3"
-                                    }
-                                ],
-                                "true1": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Le journal de mon\nmaître:"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "d1e19b04-6ed1-4901-8578-f41885ea2450"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "\"J'ai fait une\nerreur de trop et\nils m'ont viré de",
-                                                "l'organisation des\nmaîtres du temps\net m'ont fait",
-                                                "jurer de ne plus\njamais utiliser la\nmagie du temps",
-                                                "donc je vais faire\nprofile bas,\nprendre un",
-                                                "apprentit et\npréparer ma\nrevanche\""
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "412c2cd6-8f5a-4c55-a9d0-938f668a90b7"
-                                    }
-                                ],
-                                "true2": [],
-                                "true3": [],
-                                "true4": [],
-                                "true5": [],
-                                "true6": [],
-                                "true7": [],
-                                "true8": [],
-                                "true9": [],
-                                "true10": [],
-                                "true11": [],
-                                "true12": [],
-                                "true13": [],
-                                "true14": [],
-                                "true15": [],
-                                "false": []
-                            },
-                            "id": "497f131e-a0b7-440f-87a6-8df389eb96d9"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Books 2",
                     "id": "691b99be-b1f1-40ec-ad7d-0b08a137db8c",
                     "x": 3,
                     "y": 13,
@@ -21544,7 +21423,7 @@
                 {
                     "name": "Books 2",
                     "id": "caeb867b-4894-490e-87ea-9ac4bd47ddf3",
-                    "x": 7,
+                    "x": 6,
                     "y": 14,
                     "width": 1,
                     "height": 1,
@@ -22118,6 +21997,127 @@
                                 "false": []
                             },
                             "id": "67d8b57c-b1c1-4c5e-8c7d-1a1549232942"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Books 2",
+                    "id": "4ae73930-aadf-4bf5-ba8f-fa2d20c20908",
+                    "x": 9,
+                    "y": 13,
+                    "width": 2,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "5",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 0,
+                                "__collapseCase1": false,
+                                "value1": 1,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The journal of my\nmaster:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "65546066-d0b0-4bc7-b8e6-e5186b4c5ce2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"I made one\nmistake too many\nand they had me",
+                                                "to leave the time\nlord organization\nand made me swear",
+                                                "to never use time\nmagic again so I'm\ngoing to lay low,",
+                                                "take an apprentice\nand prepare my\nrevenge\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "657f93db-c5d8-428c-8aae-c91851278c20"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Le journal de mon\nmaître:"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "669e2b1b-e1a8-48cf-8c9f-a212048f5a2e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "\"J'ai fait une\nerreur de trop et\nils m'ont viré de",
+                                                "l'organisation des\nmaîtres du temps\net m'ont fait",
+                                                "jurer de ne plus\njamais utiliser la\nmagie du temps",
+                                                "donc je vais faire\nprofile bas,\nprendre un",
+                                                "apprentit et\npréparer ma\nrevanche\""
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d93a4605-75d9-48bb-8716-044dcf94696b"
+                                    }
+                                ],
+                                "true2": [],
+                                "true3": [],
+                                "true4": [],
+                                "true5": [],
+                                "true6": [],
+                                "true7": [],
+                                "true8": [],
+                                "true9": [],
+                                "true10": [],
+                                "true11": [],
+                                "true12": [],
+                                "true13": [],
+                                "true14": [],
+                                "true15": [],
+                                "false": []
+                            },
+                            "id": "62145d14-935e-4afa-ba40-adb9f79c944e"
                         }
                     ],
                     "leaveScript": []
@@ -24802,6 +24802,15 @@
                 1,
                 1
             ]
+        },
+        {
+            "id": "6a98b31e-50ac-4bf3-8ddf-d19f874867c0",
+            "name": "Old_shelf-export",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Old_shelf-export.png"
         },
         {
             "id": "76292a83-3b28-4aee-9c80-a7b7cb703f48",
@@ -32355,8 +32364,8 @@
                                     "tiles": [
                                         {
                                             "id": "0fd4da9c-2ee2-4454-b863-f6afe38670df",
-                                            "x": -1,
-                                            "y": 0,
+                                            "x": 3,
+                                            "y": -1,
                                             "sliceX": 0,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -32368,8 +32377,8 @@
                                         },
                                         {
                                             "id": "55831d61-c9e1-4ee8-b018-70f76388ab46",
-                                            "x": 7,
-                                            "y": 0,
+                                            "x": 11,
+                                            "y": -1,
                                             "sliceX": 8,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -32391,8 +32400,8 @@
                                     "tiles": [
                                         {
                                             "id": "2ca80422-276b-4464-876c-1f0876b18db5",
-                                            "x": -3,
-                                            "y": 2,
+                                            "x": 3,
+                                            "y": -1,
                                             "sliceX": 16,
                                             "sliceY": 0,
                                             "palette": 0,
@@ -32404,8 +32413,8 @@
                                         },
                                         {
                                             "id": "ea14fe3e-ccf4-45d7-80f4-95c65f7c67de",
-                                            "x": 5,
-                                            "y": 2,
+                                            "x": 11,
+                                            "y": -1,
                                             "sliceX": 24,
                                             "sliceY": 0,
                                             "palette": 0,
@@ -33996,9 +34005,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4481.27978515625,
-        "worldScrollY": 624.3839721679688,
-        "zoom": 320.31251525878906,
+        "worldScrollX": 201.98399353027344,
+        "worldScrollY": 2545.919921875,
+        "zoom": 415.6250305175781,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
