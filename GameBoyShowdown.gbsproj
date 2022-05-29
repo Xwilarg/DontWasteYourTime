@@ -2750,6 +2750,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "loop": true
+                    },
+                    "id": "dbc6c22e-ae9f-4fe3-993c-5ce0eabe181e"
+                },
+                {
                     "command": "EVENT_SET_VALUE",
                     "args": {
                         "variable": "8",
@@ -2776,7 +2784,7 @@
                         "value1": 2,
                         "__collapseCase2": false,
                         "value2": 3,
-                        "__collapseCase3": false,
+                        "__collapseCase3": true,
                         "value3": 4,
                         "__collapseCase4": false,
                         "value4": 5,
@@ -2804,7 +2812,7 @@
                         "value15": 16,
                         "__collapseElse": false,
                         "__disableElse": true,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true0": [
@@ -3291,7 +3299,8 @@
                         "__collapseCase15": false,
                         "value15": 16,
                         "__collapseElse": false,
-                        "__disableElse": true
+                        "__disableElse": true,
+                        "__collapse": true
                     },
                     "children": {
                         "true0": [
@@ -3343,7 +3352,7 @@
                     "args": {
                         "duration": 20,
                         "__scriptTabs": "end",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -11242,6 +11251,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "1ebbb19d-eeb1-4dd4-b61e-f5c4385186db",
+                        "loop": true
+                    },
+                    "id": "2b5a82ba-4a20-430f-aafb-dac78cba7a87"
+                },
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -33772,6 +33789,13 @@
             "type": "mod"
         },
         {
+            "id": "abe66bde-31fd-45e1-8a12-e9b4a570aeb2",
+            "name": "theme_boss",
+            "filename": "theme_boss.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "15dab855-10d3-4c57-9f54-4056c3dd106a",
             "name": "theme_past",
             "filename": "theme_past.uge",
@@ -34023,8 +34047,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 46,
-        "zoom": 115.62503051757812,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
